@@ -4,7 +4,7 @@
 ![test](https://github.com/kachimegatera/kadai3/actions/workflows/test.yml/badge.svg)
 
 #test.pyの説明
-四則演算の問題がランダムで出るのでその答えを打ち込むプログラムです。
+四則演算の問題がランダムで出るのでその答えを「答え＝」の隣に打ち込むプログラムです。
 実行結果は下のようになります。
 ```
 40*43
