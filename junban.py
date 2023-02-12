@@ -3,13 +3,20 @@
 # SPDX-License-Identifier: BSD-3-Claus
 
 import sys
+import re
 
 argv = sys.argv
 argv.pop(0)
-print(argv)
 argv.sort()
 number = 1
-for name in argv:
-    #for number in i:
-    print("NO{}:{}".format(number ,name))
-    number += 1
+n = 0
+for s in argv:
+    h = re.search(r'[ぁ-んァ-ン]', s)
+    if h == None:
+        n += 1
+del argv[0:n]
+list1 = len(argv)
+if list1 > 0:
+    print("NO{}:{}".format(number ,argv[0]))
+else:
+    print("no")
