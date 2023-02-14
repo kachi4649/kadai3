@@ -1,9 +1,9 @@
-#課題3提出用
+# 課題3提出用
 自分で作ったソフトウェアを見せる。
 
 ![test](https://github.com/kachimegatera/kadai3/actions/workflows/test.yml/badge.svg)
 
-#junban.pyの説明
+# junban.pyの説明
 入力されたひらがなやカタカナの文字を五十音順に変え、一番最初の文字を出力するプログラム
 ```
 ./junban.py あいな そら たいち たくま
